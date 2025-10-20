@@ -120,6 +120,45 @@ p {
   letter-spacing: 0.5px;
 }
 
+/* ✅ Video Proof Section */
+.video-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeInUp 1.2s ease;
+}
+
+.video-section h2 {
+  color: #00ffb3;
+  margin-bottom: 15px;
+}
+
+.video-box {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  animation: float 2s ease-in-out infinite alternate;
+}
+
+.video-box iframe,
+.video-box video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
 footer {
   text-align: center;
   color: #777;
@@ -141,7 +180,7 @@ footer {
 }
 @keyframes float {
   0% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); } /* adjust float height here */
+  50% { transform: translateY(-8px); }
   100% { transform: translateY(0px); }
 }
 
@@ -158,6 +197,9 @@ footer {
     width: 100%;
     max-width: 400px;
   }
+  .video-section {
+    max-width: 100%;
+  }
   .typing {
     font-size: 1.3rem;
   }
@@ -170,32 +212,45 @@ footer {
   <div class="text">
     <div class="logo">RealProof 💸</div>
     <h1><span class="typing">₹2,500 Withdrawn Instantly</span></h1>
-    <p>Maine chhote deposit se start kiya aur ab ₹30,000 withdraw kar chuka hoon. Tum bhi download karo aur apna pehla winning experience feel karo!"!</p>
+    <p>Maine chhote deposit se start kiya aur ab ₹30,000 withdraw kar chuka hoon. Tum bhi download karo aur apna pehla winning experience feel karo!</p>
     <a href="https://invite.p77hhh.com/?code=J3GZ7VZ" target="_blank">
       <button class="btn">Download Now</button>
     </a>
   </div>
 
-  <!-- Withdrawal Proof Section -->
+  <!-- Winning Proof Section -->
   <div class="proof-section">
     <h2>Winning Proof ✅</h2>
     <div class="proof-scroll">
-      <img src="https://disturbed-crimson-zvppacuism.edgeone.app/IMG_3526.jpeg" alt="Withdrawal Proof 1">
-      <img src="https://regulatory-coffee-11gssfka9o.edgeone.app/IMG_3529.jpeg" alt="Withdrawal Proof 2">
+      <img src="https://disturbed-crimson-zvppacuism.edgeone.app/IMG_3526.jpeg" alt="Winning Proof 1">
+      <img src="https://regulatory-coffee-11gssfka9o.edgeone.app/IMG_3529.jpeg" alt="Winning Proof 2">
       <img src="https://cultural-lavender-eppebwoa5d.edgeone.app/IMG_2865.jpeg" alt="Winning Proof 3">
     </div>
   </div>
 
-  <!-- Winning Proof Section -->
+  <!-- Withdrawal Proof Section -->
   <div class="proof-section">
-    <h2> Withdrawal Proof 🏆</h2>
+    <h2>Withdrawal Proof 🏆</h2>
     <div class="proof-scroll">
-      <img src="https://gradual-silver-sattmzzrxt.edgeone.app/IMG_2866.jpeg" alt="Winning Proof 1">
-      <img src="https://broken-violet-0qfelop0wr.edgeone.app/IMG_3493.jpeg" alt="Winning Proof 2">
+      <img src="https://gradual-silver-sattmzzrxt.edgeone.app/IMG_2866.jpeg" alt="Withdrawal Proof 1">
+      <img src="https://broken-violet-0qfelop0wr.edgeone.app/IMG_3493.jpeg" alt="Withdrawal Proof 2">
     </div>
   </div>
 </div>
-
+<!-- 🎥 Video Proof Section -->
+<div class="video-section">
+  <h2>🎥 Real Video Proof -- Live Withdraw & Earnings</h2>
+  <div class="video-box">
+    <!-- ✅ Fixed: Embed YouTube video properly -->
+    <iframe 
+      src="https://www.youtube.com/embed/p423PCYMPHk" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 <footer>
   © 2025 RealProof • Real People. Real Payouts.
 </footer>
